@@ -3,7 +3,7 @@ import styles from "./ErrorMessage.module.css";
 const ErrorMessage = () => {
   return (
     <div className={styles.error}>
-      <p>Error 404: NOT FOUND</p>
+      <p>Something wrong. Please try again later!</p>
     </div>
   );
 };
